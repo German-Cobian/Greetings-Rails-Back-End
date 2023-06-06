@@ -1,6 +1,6 @@
-# Greetings-Rails-Back-End
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Greetings-Rails-Back-End
 
 The Rails back-end (set up as an API) of an app that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed:
 
@@ -17,7 +17,7 @@ The user can then click the button to see another greeting randomly display.
 * Postgres: >=9.5
 * Node.js
 * Yarn
-* [Front-end](https://github.com/German-Cobian/Hello-React-Front-End)
+* [Front-end](https://github.com/German-Cobian/Greetings-React-Front-End)
 
 
 ## Getting Started
