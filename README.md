@@ -1,45 +1,151 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Greetings-Rails-Back-End
+<div align="center">
+  <h1><b>Greetings-Rails-Back-End</b></h1>
+</div>
 
-The Rails back-end (set up as an API) of an app that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed:
+<!-- TABLE OF CONTENTS -->
 
-![Greetings](/assets/Greeting1.png?raw=true "random greeting")
+# 📗 Table of Contents
 
-The user can then click the button to see another greeting randomly display.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-![Greetings](/assets/Greeting2.png?raw=true "random greeting")
+<!-- PROJECT DESCRIPTION -->
 
-### Built with
+# 📖 [your_project_name] <a name="about-project"></a>
 
-* Ruby 3.1.1
-* Rails 7.0.5
-* Postgres: >=9.5
-* Node.js
-* Yarn
-* [Front-end](https://github.com/German-Cobian/Greetings-React-Front-End)
+> The Rails back-end (set up as an API) of an app that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed:
+
+**[your_project__name]** is a...
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+     <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Data-Model]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Coming soon]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+> In order to run this project you need the following tools to be installed in your computer:
+
+> - [Rails](https://guides.rubyonrails.org/)
+> - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+> - [Ruby](https://github.com/microverseinc/curriculum-ruby/blob/main/simple-ruby/articles/ruby_installation_instructions.md)
 
 
-## Getting Started
+### Setup
 
-To get a local copy up and running follow these simple example steps:
+Clone this repository to your desired folder:
 
+```sh
+  cd my-preferred-folder
+  `git clone git@github.com:German-Cobian/Greetings-Rails-Back-End.git`
+```
 
-### Setup and Install
+### Install
 
-* Open your terminal - Windows: `Win + R`, then type `cmd` | Mac: `Command + space`, then type `Terminal`
-* Navigate to a directory of your choosing using the `cd` command
-* Run this command in your OS terminal: `git clone git@github.com:German-Cobian/Greetings-Rails-Back-End.git` to get a copy of the project
-* Navigate to the project's directory using the `cd` command
-* Install dependencies by running `bundle install`
-* Migrate the database to your environment by running `rails db:migrate` and then seed the app with data that is pre-packaged for its pages to display by running`rails db:seed`
-* Navigate to the bin folder of the project using the `cd` command and then execute `rails server` to fire up the server
-* In order for this project to work you need to also be running the frontend server. After starting the backend server,
-  run `npm start` on the front-end app to start its live server.
-* Visit `http://localhost:3000/` in your browser to get into the app
+Install this dependencies for this project with:
 
+```sh
+  cd Greetings-Rails-Back-End
+  bundle install
+```
 
-## Authors
+### 💾 Database
+
+Create the databases,run migrations, and populate it with seed data:
+
+```sh
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  rails s
+```
+
+In order for this project to work you need to also be running the frontend server. After starting the backend server,open another terminal screen for the [Front-end](https://github.com/German-Cobian/Greetings-React-Front-End) and run the following command:
+
+```sh
+  npm start
+```
+Visit `http://localhost:3000/` in your browser to get into the app.
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rspec
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
 
 👤 **German Cobian**
 
@@ -47,23 +153,46 @@ To get a local copy up and running follow these simple example steps:
 * Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
 * LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Awesome UI]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/German-Cobian/Greetings-Rails-Back-End/issues)
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please give it a star 😁🌟✨
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Guidelines for this project supplied by [Microverse](https://github.com/microverseinc/curriculum-rails/blob/main/connect-frontend-frameworks/hello_world_two_apps.md)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/German-Cobian/Greetings-Rails-Back-End/blob/main/LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
