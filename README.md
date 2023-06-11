@@ -18,7 +18,6 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -28,11 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Greetings-Rails-Back-End] <a name="about-project"></a>
 
-> The Rails back-end (set up as an API) of an app that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed:
-
-**[your_project__name]** is a...
+**[Greetings-Rails-Back-End]** is an app (set up as an API) that displays a random greeting when the user clicks on a button labeled: "Get another greeting". The database is seeded with 5 different greetings which display on the browser, one at a time. Upon loading the greetings page the user will find one out of those 5 greetings randomly displayed.  The user can then click the button to see another greeting randomly display.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -111,7 +108,7 @@ Install this dependencies for this project with:
 
 ### 💾 Database
 
-Create the databases,run migrations, and populate it with seed data:
+Create the databases, run migrations, and populate it with seed data:
 
 ```sh
 rails db:create
@@ -127,21 +124,12 @@ To run the project, execute the following command:
   rails s
 ```
 
-In order for this project to work you need to also be running the frontend server. After starting the backend server,open another terminal screen for the [Front-end](https://github.com/German-Cobian/Greetings-React-Front-End) and run the following command:
+In order for this project to work you need to also be running the frontend server. After starting the backend server, open another terminal screen for the [Front-end](https://github.com/German-Cobian/Greetings-React-Front-End) and run the following command:
 
 ```sh
   npm start
 ```
 Visit `http://localhost:3000/` in your browser to get into the app.
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec
-```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
