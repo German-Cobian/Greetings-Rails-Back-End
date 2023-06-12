@@ -129,7 +129,6 @@ In order for this project to work you need to also be running the frontend serve
 ```sh
   npm start
 ```
-Visit `http://localhost:3000/` in your browser to get into the app.
 
 <!-- AUTHORS -->
 
